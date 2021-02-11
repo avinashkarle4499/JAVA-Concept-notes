@@ -1,0 +1,92 @@
+Avinash Karle(28007)
+========================================================
+
+Class and Object :
+
+=> A class is a template or blueprint from which objects are created.
+ So, an object is the instance(result) of a class.
+====================================================================
+
+Features Of Java:
+====================================================================
+=> Object Oriented − In Java, everything is an Object.
+ Java can be easily extended since it is based on the Object model.
+
+=>Platform Independent − Unlike many other programming languages including C and C++, when Java is compiled,
+ it is not compiled into platform specific machine, rather into platform independent byte code. 
+This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.
+
+=>Simple − Java is designed to be easy to learn. If you understand the basic concept of OOP Java,
+ it would be easy to master.
+
+=>Secure − With Java's secure feature it enables to develop virus-free, tamper-free systems.
+ Authentication techniques are based on public-key encryption.
+
+=>Architecture-neutral − Java compiler generates an architecture-neutral object file format, 
+which makes the compiled code executable on many processors, with the presence of Java runtime system.
+
+=>Portable − Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. 
+Compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.
+
+=>Robust − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.
+============================================================================================================================================
+
+==> OOPS Concept in JAVA:
+================================
+
+=> Inheritance in java:
+Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another.
+ With the use of inheritance the information is made manageable in a hierarchical order.
+
+The class which inherits the properties of other is known as subclass (derived class, child class) and
+ the class whose properties are inherited is known as superclass (base class, parent class).
+
+=> Polymorphism:
+Polymorphism is the ability of an object to take on many forms. 
+The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+
+=>Abstraction:
+Abstract Classes and Methods Data abstraction is the process of hiding certain details and showing only essential information to the user.
+ Abstraction can be achieved with either abstract classes or interfaces
+
+=> Encapsulation:
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. 
+In encapsulation, the variables of a class will be hidden from other classes, 
+and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding. 
+
+=> Interface:
+An interface is a reference type in Java. It is similar to class. It is a collection of abstract methods.
+ A class implements an interface,
+ thereby inheriting the abstract methods of the interface.
+
+=> Exception in java:
+An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.
+ When an error occurs within a method, the method creates an object and hands it off to the runtime system.
+ ... This block of code is called an exception handler.
+
+To handle the Exception java provides inbuilt keywords:
+=> try&catch, throw&throws and finally.
+
+=============================================================================================================
+
+=> Collection Framework in java:
+
+=> Framework:
+   > It is a half built solution.
+   > it has readymade classes, interface , methoads available to developer.
+
+=> Collection:
+  > It is a group of object stored in single entity.
+  > To use Collection framework we need to import java.util package whwere we can access the predefined classes,methods&interface.
+  > It stores a heterogeneous data. Size is not fixed hence it is dynamic in nature
+
+=> Collection has Three child interface:
+   > List(I)
+   >Set(I)
+   >Queue(I) & Map also type of collection but it does not extends collection.
+
+  =============================================================================================================================== 
+
+
+
+
